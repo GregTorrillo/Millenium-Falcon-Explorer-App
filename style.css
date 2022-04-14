@@ -1,4 +1,3 @@
-
 /******************************************
 /* CSS
 /*******************************************/
@@ -55,8 +54,8 @@ table {
 /*******************************************/
 body {
   font-family: sans-serif;
+  background: black;
 }
-
 .cockpit {
   width: 100%;
   height: 100vh;
@@ -64,7 +63,6 @@ body {
   left: 0;
   position: absolute;
 }
-
 .photoDay{
   width: 100%;
   height: 80vh;
@@ -72,34 +70,56 @@ body {
   top: 0;
   left: 0;
 }
-
 button{
   height: 9%;
   width: 4%;
   background: #FF3700;
   color: #FFFFFF;
   text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 1px #fff;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   font-weight: bold;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 15px;
   top: 78%;
   left: 47%;
   position: absolute;
   z-index: 1;
 }
-input{
-  top: 78%;
-  left: 32%;
-  width: 10%;
-  height: 8%;
-  color: white;
+button:hover{
+  cursor: pointer;
+  color: #FF3700;
+  text-shadow: none;
+  background: #f2e621;
+  box-shadow: 0 0 10px #f2e621, 0 0 20px #f2e621, 0 0 40px #f2e621;
+}
+.random{
+  top: 90%;
+  left: 47%;
   background: #13A3FE;
-  font-size: 1.8rem;
+}
+input[type="date"]{
+  top: 78%;
+  left: 31%;
+  width: 12%;
+  height: 92px;
+  color: #FFFFFF;
+  background: #010504;
+  font-size: 1.5rem;
   position: absolute;
   z-index: 1;
+  border: 1px solid gray;
 }
-
+::-webkit-calendar-picker-indicator{
+  background-color: white;
+  padding: 1px;
+  margin-right: 20px;
+}
+input[type="date"]:hover {
+  cursor: pointer;
+  background: #f2e621;
+  color: black;
+  box-shadow: 0 0 10px #f2e621;
+}
 .explanationBox{
   top: 40%;
   left: 60%;
@@ -107,7 +127,7 @@ input{
   z-index: 1;
   width: 600px;
   height: 400px;
-  background: rgba(38,227,74,0.05);
+  background: rgba(38,227,74,0.08);
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -116,19 +136,101 @@ input{
   box-shadow: 0 25px 45px rgba(0,0,0,0.1);
   border: 1px solid rgba(38,227,74,0.5);
   border-right: 1px solid rgba(38,227,74,0.5);
+  overflow: auto;
 }
 h3 {
   color: #26e34a;
-  font-size: 1rem;
   text-shadow: 2px 2px 2px black;
   line-height: 1.5em;
   position: absolute;
   z-index: 1;
   padding: 30px;
 }
+iframe{
+  top: 41%;
+  left: 61%;
+  position: absolute;
+  z-index: 1;
+  width: 560px;
+  height: 373px;
+  border-radius: 10px;
+}
+.hidden{
+	display: none;
+}
+
+/* ------------------MEDIA QUERY-	SMALL DESKTOP ---------------------- */
+
+@media screen and (min-width: 600px) and (max-width: 1300px){
+
+  .cockpit {
+    height: 50vh;
+  }
+  .photoDay{
+    height: 50vh;
+  }
+  .explanationBox{
+    top: 60%;
+    left: 10%;
+    width: 80vw;
+    height: 45vh;
+  }
+  input[type="date"]{
+    top: 52%;
+    left: 10%;
+    width: 40%;
+    height: 5%;
+    font-size: 1rem;
+  }
+  button{
+    height: 5%;
+    width: 15%;
+    top: 52%;
+    left: 55%;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  .random{
+    top: 52%;
+    left: 75%;
+  }
+
+}
 
 
+/* ------------------MEDIA QUERY-	PHONE PORTRAIT ---------------------- */
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+@media screen and (max-width: 600px){
+
+  .cockpit {
+    height: 40vh;
+  }
+  .photoDay{
+    height: 40vh;
+  }
+  .explanationBox{
+    top: 50%;
+    left: 10%;
+    width: 80vw;
+    height: 45vh;
+  }
+  input[type="date"]{
+    top: 42%;
+    left: 10%;
+    width: 40%;
+    height: 5%;
+    font-size: 1rem;
+  }
+  button{
+    height: 5%;
+    width: 15%;
+    top: 42%;
+    left: 55%;
+    font-size: .6rem;
+    border-radius: 5px;
+  }
+  .random{
+    top: 42%;
+    left: 75%;
+  }
+}
