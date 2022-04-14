@@ -159,24 +159,24 @@ iframe{
 	display: none;
 }
 
-/* ------------------MEDIA QUERY-	SMALL DESKTOP ---------------------- */
+/* ------------------MEDIA QUERY-LAPTOP ---------------------- */
 
 @media screen and (min-width: 600px) and (max-width: 1300px){
 
   .cockpit {
-    height: 50vh;
+    height: 70vh;
   }
   .photoDay{
-    height: 50vh;
+    height: 70vh;
   }
   .explanationBox{
-    top: 60%;
+    top: 80%;
     left: 10%;
     width: 80vw;
-    height: 45vh;
+    height: 20vh;
   }
   input[type="date"]{
-    top: 52%;
+    top: 72%;
     left: 10%;
     width: 40%;
     height: 5%;
@@ -185,20 +185,20 @@ iframe{
   button{
     height: 5%;
     width: 15%;
-    top: 52%;
+    top: 72%;
     left: 55%;
     font-size: 1rem;
     border-radius: 5px;
   }
   .random{
-    top: 52%;
+    top: 72%;
     left: 75%;
   }
 
 }
 
 
-/* ------------------MEDIA QUERY-	PHONE PORTRAIT ---------------------- */
+/* ------------------MEDIA QUERY-MOBILE ---------------------- */
 
 @media screen and (max-width: 600px){
 
