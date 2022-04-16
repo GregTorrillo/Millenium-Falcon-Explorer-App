@@ -31,22 +31,22 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-  line-height: 1;
+	line-height: 1;
 }
 ol, ul {
-  list-style: none;
+	list-style: none;
 }
 blockquote, q {
-  quotes: none;
+	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none;
+	content: '';
+	content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 /******************************************
@@ -91,6 +91,7 @@ button:hover{
   text-shadow: none;
   background: #f2e621;
   box-shadow: 0 0 10px #f2e621, 0 0 20px #f2e621, 0 0 40px #f2e621;
+	border: 1px solid #FFFFFF;
 }
 .random{
   top: 90%;
@@ -114,11 +115,15 @@ input[type="date"]{
   padding: 1px;
   margin-right: 20px;
 }
+::-webkit-calendar-picker-indicator:hover{
+	cursor: pointer;
+}
 input[type="date"]:hover {
   cursor: pointer;
   background: #f2e621;
   color: black;
   box-shadow: 0 0 10px #f2e621;
+	border: 2px solid #FFFFFF;
 }
 .explanationBox{
   top: 40%;
@@ -138,6 +143,9 @@ input[type="date"]:hover {
   border-right: 1px solid rgba(38,227,74,0.5);
   overflow: auto;
 }
+.explanationBox:hover{
+	border: 1px solid rgba(38,227,74,1);
+}
 h3 {
   color: #26e34a;
 	font-size: 18px;
@@ -154,14 +162,14 @@ iframe{
   z-index: 1;
   width: 32%;
   height: 37%;
-  background: rgba(38,227,74,0.08);
-  backdrop-filter: blur(2px);
+	background: rgba(38,227,74,0.08);
+	backdrop-filter: blur(2px);
   border-radius: 10px;
-  border: 1px solid rgba(38,227,74,0.5);
+	border: 1px solid rgba(38,227,74,0.5);
   border-right: 1px solid rgba(38,227,74,0.5);
 }
 .hidden{
-  display: none;
+	display: none;
 }
 
 /* ------------------MEDIA QUERY-LARGE LAPTOP ---------------------- */
@@ -184,8 +192,8 @@ iframe{
 	  font-size: 16px;
 	}
 	h3{
-	  font-size: 14px;
-	  line-height: 18px;
+		font-size: 14px;
+		line-height: 18px;
 	}
 }
 
@@ -193,7 +201,7 @@ iframe{
 
 @media screen and (min-width: 820px) and (max-width: 1024px){
 
-	.explanationBox, iframe {
+	.explanationBox, iframe{
 		top: 45%;
 		left: 60%;
 		width: 32%;
