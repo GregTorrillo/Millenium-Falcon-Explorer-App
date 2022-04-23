@@ -1,6 +1,6 @@
 <h1 align="center">Millennium Falcon Explorer App | <a href="https://millenium-falcon-explorer.netlify.app/">Website</a></h1>
 <div align="center">
-	  <img src="https://github.com/GregTorrillo/Millennium-Falcon-Explorer-App/blob/main/MF-explorer-video.mp4" width="100%" />
+	  <img src="https://github.com/GregTorrillo/Millennium-Falcon-Explorer-App/blob/main/MF-explorer-app.gif" width="100%" />
 </div>
 
 ## Motivation: 
