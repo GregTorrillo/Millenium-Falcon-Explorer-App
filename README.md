@@ -9,7 +9,7 @@ Being a huge Star Wars fan, I wanted to create an interactive visual experience 
 ## Description:
 It gives the user an experience of exploring space in the cockpit of the Millennium Falcon.  Images are retrieved using NASA API: APOD (Astronomy Picture of the Day).  The user can choose either a specific date (HYPERDRIVE) or random (JUMP) to retrieve an image or video with a description. 
 	
-<h4>Api: https://api.nasa.gov/</h4>	
+<h4>API: https://api.nasa.gov/</h4>	
 
 ## Techs used:
 <p align="left"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="50" height="50"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="50" height="50"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></p>
