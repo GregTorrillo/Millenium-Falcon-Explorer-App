@@ -3,7 +3,7 @@
 	  <img src="https://github.com/GregTorrillo/Millennium-Falcon-Explorer-App/blob/main/MF-explorer-app.gif" width="100%" />
 </div>
 <br>
-<p align="center"><a href="https://millenium-falcon-explorer.netlify.app/" target="_blank" rel="noreferrer"><img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-website-button.png" alt="Website" width="125px" height="45px"></a></p>
+<p align="center"><a href="https://millenium-falcon-explorer.netlify.app/" target="_blank" rel="noreferrer"><img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-website-button.png" alt="Website" width="120px" height="45px"></a></p>
 
 ## Motivation: 
 Being a huge Star Wars fan, I wanted to create an interactive visual experience through the cockpit of the Millennium Falcon. 
